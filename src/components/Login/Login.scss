@@ -1,0 +1,64 @@
+.login {
+  max-width: 400px;
+  margin: 50px auto 50px auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px 10px 25px 10px;
+  border-radius: 10px;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    text-shadow: green 2px 0 3px;
+  }
+  input {
+    height: 30px;
+    width: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  button {
+    border: 1px solid rgb(239, 236, 236);
+    background: rgb(214, 213, 213);
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    color: #fff;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.2s ease;
+    cursor: pointer;
+    background: linear-gradient(
+      10deg,
+      rgb(225, 228, 234) 0%,
+      rgb(190, 192, 197) 50%,
+      rgba(0, 128, 0, 0.803) 50%,
+      rgb(196, 196, 199) 90%
+    );
+    text-shadow: -1px -1px 0 hsl(60, 2%, 79%), -2px -2px 1px hsl(60, 1%, 34%);
+    &:hover {
+      text-shadow: -1px -1px 0 hsl(0, 0%, 98%), -1px -1px 1px hsl(60, 16%, 96%);
+      color: green;
+      box-shadow: rgba(53, 79, 245, 0.35) 0px 5px 15px;
+      background: linear-gradient(
+        150deg,
+        rgb(225, 228, 234) 0%,
+        rgb(190, 192, 197) 50%,
+        rgb(190, 192, 197) 50%,
+        rgb(141, 142, 145) 100%
+      );
+    }
+  }
+  .error {
+    color: red;
+    margin-bottom: 5px;
+  }
+}

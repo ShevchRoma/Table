@@ -1,0 +1,21 @@
+.table {
+  input {
+    border: 0.4px solid transparent;
+    padding: 4px 2px;
+    cursor: pointer;
+    &:hover {
+      border: 0.4px solid grey;
+    }
+  }
+  p {
+    width: 100px;
+  }
+  span {
+    color: blue;
+    cursor: pointer;
+    transition: 0.3s ease;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
