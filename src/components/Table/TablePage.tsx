@@ -96,6 +96,7 @@ const TablePage = () => {
           console.log(response.data);
           if (response.data) {
             alert("Succesful");
+            dispatch(fetchTable())
           }
         })
         .catch((error) => {
