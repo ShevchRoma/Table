@@ -121,7 +121,7 @@ const TablePage = () => {
       birthday_date: "",
       phone_number: "",
     });
-    dispatch(fetchTable())
+    //dispatch(fetchTable())
   };
   return (
     <div>
